@@ -23,8 +23,8 @@ curl -X POST -d '{"name": "challenge 3"}' -H 'Content-type:application/json' htt
 # Edit a Challenge
 curl -X PUT -d '{"name": "challenge 3, edited"}' -H 'Content-type:application/json' http://localhost:8080/challenges/3
 
-# Delte a challenge
-curl -X PUT -d '{"name": "challenge 3, edited"}' -H 'Content-type:application/json' http://localhost:8080/challenges/3
+# Delete a challenge
+curl -X DELETE -d '{"name": "challenge 3, edited"}' -H 'Content-type:application/json' http://localhost:8080/challenges/3
 ```
 
 ## Development
